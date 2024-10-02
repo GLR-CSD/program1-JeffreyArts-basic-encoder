@@ -6,7 +6,7 @@ const encodingArray = {
     e: "A",
     f: "F",
     g: "G",
-    h: "D",
+    h: "H",
     i: "I",
     j: "J",
     k: "K",
