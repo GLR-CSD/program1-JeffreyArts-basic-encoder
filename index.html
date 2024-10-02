@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encoding/decoding strings</title>
+    <script>
+        // Deze variable zijn tot je beschikking:
+        let encodeElement, decodeElement, outputElement
+    </script>
+    <script src="encoder.js"></script>
+</head>
+<body>
+    
+    <div class="form">
+        <h1>Text decoder / encoder</h1>
+        <div>
+            <input type="text" id="encodeInput">
+            <button onclick="encodeText()">Encode text</button>
+        </div>
+        <div>
+            <input type="text" id="decodeInput">
+            <button onclick="decodeText()">Decode text</button>
+        </div>
+    </div>
+
+    <pre id="output"></pre>
+
+    <script src="controller.js"></script>
+</body>
+</html>

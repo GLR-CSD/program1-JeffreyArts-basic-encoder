@@ -1,0 +1,13 @@
+.form {
+    display:flex;
+    flex-flow: column;
+    gap: 16px;
+}
+
+
+#output {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+}
